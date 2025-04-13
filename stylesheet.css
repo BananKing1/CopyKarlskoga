@@ -26,6 +26,7 @@ body{
     justify-content: center; 
     align-items: center;
     font-size: 17px;
+    
 }
 
 .middle{
@@ -98,8 +99,12 @@ header{
     font-size: 25px;
 }
 
-#special, #specialicon{
-    background-color: #5166B0;  color: white;
+#special{
+    background-color: #5166B0;  color: #FFFFFF;
+}
+
+#specialicon{
+    color: #FFFFFF;
 }
 
 .main{
@@ -108,8 +113,10 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;  flex-direction: column;
+    justify-content: center;
     align-items: center;
     text-align: center;
+    justify-items: center;
 }
 
 #column{
@@ -117,27 +124,46 @@ header{
 }
 
 .present{
+    margin-top: 5%; 
     font-size: 60px;
+    font-weight: bold;
     color: white;
+    height: 20%;
+    display: flex;  flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
 }
 
 .stuff{
-    width: 35%; min-height: 30%;
+    padding-top: 5%;
+    width: 27%; min-height: 30%;
     background-color: white;
     display: flex;  flex-direction: column;
     align-items: center;
     text-align: center;
     color: black;
-    font-size: 30px;
+    font-size: 27px;
+    font-weight: bold;
+    margin-right: 1%;   margin-left: 1%;
 }
 
 .stuff img{
-    width: 20%;
+    position: absolute;
+    margin-top: -6%;
+    width: 5%;
     background: #5166B0;
-    padding: 5%;
+    padding: 1.5%;
     border-radius: 100%;
 }
 
-.push{
-    margin-top: 5%;
+.thing{
+    width: 100%;    height: 20%;
+    font-size: 18px;    padding: 4%;    padding-left: 5%;
+    border-top: 1px solid #EDEDED;
+    color: black;
+    display: flex;  flex-direction: row; 
+    justify-content: left; 
+    align-items: center;
+    text-align: center;
 }
